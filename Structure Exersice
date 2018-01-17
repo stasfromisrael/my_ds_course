@@ -1,0 +1,93 @@
+#Exercise 1
+
+
+
+boys_names = ['Yossi', 'Kfir', 'Dan']
+
+girls_names = ['Reut', 'Zina', 'Maya']
+
+boys_names.append('Dolev')
+
+print(boys_names)
+
+
+
+girls_names.insert(0, 'Dana')
+
+print(girls_names)
+
+
+
+bride = girls_names[-1]
+
+print(bride)
+
+girls_names.pop()
+
+print(girls_names)
+
+
+
+groom = boys_names[0]
+
+print(groom)
+
+boys_names.pop(0)
+
+print(boys_names)
+
+
+
+last_boy_name = boys_names[-1]
+
+boys_names.remove(last_boy_name)
+
+print(boys_names)
+
+
+
+all_names = boys_names + girls_names
+
+print(all_names)
+
+
+
+#extend() is only for particular list and not a variable
+
+
+
+#Exercise 2
+
+
+
+Moshe = ['Moshe', 20, 'False']
+
+Kfir = ['Kfir', 30, 'True']
+
+Dan = ['Dan', 40, 'True']
+
+
+
+Moshe.pop(1)
+
+Moshe.insert(1,25)
+
+print(Moshe)
+
+
+
+guys = []
+
+guys.append(Moshe)
+
+print(guys)
+
+
+
+Ben = ['Ben', 50, 'True']
+
+guys.append(Ben)
+
+       
+
+print(guys)
